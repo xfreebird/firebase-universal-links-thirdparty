@@ -1,0 +1,18 @@
+{
+  "hosting": {
+    "appAssociation": "NONE",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "redirects": [
+      {
+        "type": 301,
+        "source": "/http-redirect.html",
+        "destination": "https://fir-test-universal-links.web.app/demo.html"
+      }
+    ]
+  }
+}
